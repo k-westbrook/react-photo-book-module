@@ -54,7 +54,7 @@ function (_Component) {
         }, _react["default"].createElement("div", {
           className: "image-container"
         }, _react["default"].createElement("img", {
-          src: element.imageURL,
+          src: element,
           className: "image"
         })));
       }));

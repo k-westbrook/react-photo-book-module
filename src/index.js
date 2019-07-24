@@ -15,7 +15,7 @@ export default class Row extends Component {
               key={counter}
               className="element-block">
               <div className="image-container">
-                <img src={element.imageURL} className="image" />
+                <img src={element} className="image" />
               </div>
 
             </div>
