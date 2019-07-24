@@ -14,3 +14,7 @@ This is an example of the structure of data that must be passed as a prop to the
 # How to Use in a React App
 
     <Row  data={this.state.row}  />
+    
+# Display in Browser
+
+![Display of photos with 3 images per row](https://res.cloudinary.com/dmp2crnzz/image/upload/v1563946780/readme/Screen_Shot_2019-07-23_at_10.38.24_PM.png)
