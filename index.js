@@ -10,8 +10,6 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = require('react-dom');
-
 require('./src/style.css');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
@@ -49,15 +47,6 @@ var Row = function (_Component) {
               'div',
               { className: 'image-container' },
               _react2.default.createElement('img', { src: element.imageURL, className: 'image' })
-            ),
-            _react2.default.createElement(
-              'div',
-              { className: 'text-container' },
-              _react2.default.createElement(
-                'h3',
-                null,
-                element.name
-              )
             )
           );
         })

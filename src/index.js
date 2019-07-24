@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { render } from 'react-dom';
-import './src/style.css'
+import './src/style.css';
 
 export default class Row extends Component {
 
@@ -18,9 +17,7 @@ export default class Row extends Component {
               <div className="image-container">
                 <img src={element.imageURL} className="image" />
               </div>
-              <div className="text-container">
-                <h3>{element.name}</h3>
-              </div>
+
             </div>
           )
         })
