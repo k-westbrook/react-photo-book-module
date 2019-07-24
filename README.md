@@ -13,7 +13,17 @@ This is an example of the structure of data that must be passed as a prop to the
 
 # How to Use in a React App
 
-    <Row  data={this.state.row}  />
+   **How to install**
+
+    npm install react-photo-book-module
+
+**How to import**
+
+    import  Row  from  'react-photo-book-module'
+    
+**How to render component**
+
+     <Row  data={this.state.row}  />
     
 # Display in Browser
 
